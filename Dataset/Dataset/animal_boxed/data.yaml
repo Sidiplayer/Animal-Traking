@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['badger', 'cat', 'fox', 'mouse', 'rabbit']
+
+roboflow:
+  workspace: animaldetection-fkjd2
+  project: animal_detection-pneou
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/animaldetection-fkjd2/animal_detection-pneou/2
